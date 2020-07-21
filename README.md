@@ -1,16 +1,16 @@
-# bezier_shapes
+# Colab-bezier-shapes
+
+#### Important information
+
+- If you can't open `Colab-bezier-shapes.ipynb` inside your Google Drive, try this [colab link](https://colab.research.google.com/github/styler00dollar/Colab-bezier-shapes/blob/master/Colab-bezier-shapes.ipynb) and save it to your Google Drive. The "open in Colab"-button can be missing in Google Drive, if that person never used Colab.
+- The Google Colab VM does have a maximum session length of 12 hours. Additionally there is a 30 minute timeout if you leave colab. The VM will be deleted after these timeouts.
+- This fork fixes broken imports, some random errors and removes dots in dataset creation.
 
 This repository contains tools to generate random shapes using Bezier curves (images and meshes), controlling the number of points and the local curvature and sharpness. It is also possible to generate shapes by joining specified points using an in-house csv format, and to generate full sets of random shapes with variable parameters.
 
 <p align="center">
   <img width="430" alt="" src="https://user-images.githubusercontent.com/44053700/70312990-0413ae80-1815-11ea-8bbd-2734fb81a668.png">
 </p>
-
-## Requirements
-
-- ```gmsh``` is required for the meshing of the shapes. Simplest way is to download an executable from http://gmsh.info/ on your computer, and to add its position to your ```PATH```
-- ```pygmsh```
-- ```meshio```
 
 ## Citation
 
